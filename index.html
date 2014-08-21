@@ -5,11 +5,34 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.10.2.min.js"></script>
     <link rel=stylesheet type="text/css" href="normalize.css">
     <link rel=stylesheet type="text/css" href="main.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
     <title>魔獸信長之野望</title>
+    <script>
+      $(function() {
+        $( "#menu1" ).menu();
+      });
+    </script>
+    <style>
+      .ui-menu { width: 100px; }
+    </style>
+
   </head>
   <body>
-    <section class = "A" >
-    
+    <section class="title">
+      <img src="123.jpg">
+    </section>
+    <section class="goal">
+      <ul id="menu1">
+        <li>出場英雄
+        <ul>
+          <li id="army1">織田軍</li>
+          <li id="army1">聯合軍</li>
+          <li id="army1">中立軍</li>
+        </ul>
+        </li>
+      </ul>
     </section>
     <a href = "https://dl.dropbox.com/u/79531104/AmbitionOfNobunaga163B2.w3x" >地圖16.3B2下載連結</a><br>
   </body>
