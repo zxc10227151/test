@@ -1,6 +1,8 @@
 body {
   background-color:black;
   color:#FFFFFF;  
+  background-image:url('背景.jpg');
+  background-size: 100%;
 }
 .title {
   text-align:center;
@@ -8,6 +10,11 @@ body {
 
 .pic {
 height : auto;
-height : 250px;
-width : 650px;
+height : 150px;
+width : 550px;
+}
+
+.vedio {
+  text-align:center;
+  
 }
