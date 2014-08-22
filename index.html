@@ -17,7 +17,16 @@
     <style>
       .ui-menu { width: 100px; }
     </style>
-
+    <script>
+      $(function() {
+        
+          $("#name1").click(function(){     
+            document.getElementById("introduction1").innerHTML="德川家康<br>戰國時代末期傑出的政治家和軍事家，被後世尊崇者稱為＂神君＂厭惡者罵為＂貍貓＂的戰國英雄。他原名松平元信，是三合岡崎領主松平廣中之子，臣於今川義元。桶狹間之戰後，家康恢復故土三河，與織田信長結盟。〝江戶幕府〞的第一代將軍。" ;
+            $( "#introduction1" ).dialog();     
+          });  
+        
+     });
+    </script>
   </head>
   <body>
     <section class="title">
@@ -36,11 +45,11 @@
         </li>
       </ul>
     </section>
-    <script>
+    <script> 
     $(function(){
       $("#army1").click(function(){       
         
-        document.getElementById("name1").innerHTML="<img src=\"德川.gif\">" + "德川家康" ;
+        document.getElementById("name1").innerHTML="<img src=\"德川.gif\" id=\"123\">" + "德川家康" ;
         document.getElementById("name2").innerHTML="<img src=\"稻姬.gif\">" + "稻姬" ;
         document.getElementById("name3").innerHTML="<img src=\"石川.gif\">" + "石川樹正" ;
         document.getElementById("name4").innerHTML="<img src=\"竹中.gif\">" + "竹中重治" ;
@@ -224,6 +233,7 @@
       <td><div id="name36"></div></td>
     </tr>
     </table>
+    <div id="introduction1"></div>
     <a href = "https://dl.dropbox.com/u/79531104/AmbitionOfNobunaga163B2.w3x" >地圖16.3B2下載連結</a><br>
   </body>
   
