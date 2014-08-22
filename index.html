@@ -19,8 +19,21 @@
     </style>
     <script>
       $(function() { 
-        $("#name2").click(function(){     
-          $( "#introduction2" ).dialog();     
+        $("#army1").click(function(){ 
+          $("#name1").click(function(){     
+            $( "#introduction1" ).dialog();    
+          }); 
+          $("#name2").click(function(){     
+            $( "#introduction2" ).dialog();     
+          }); 
+          $("#name3").click(function(){     
+            $( "#introduction3" ).dialog();     
+          }); 
+        }); 
+        $("#army2").click(function(){ 
+          $("#name1").click(function(){     
+            $( "#introduction1" ).dialog();    
+          }); 
         }); 
      });
     </script>
@@ -47,113 +60,395 @@
       $("#army1").click(function(){       
         
         document.getElementById("name1").innerHTML="<img src=\"德川.gif\" id=\"123\">" + "德川家康" ;
-        
-        document.getElementById("name2").innerHTML="<img src=\"稻姬.gif\">" + "稻姬" ;
         $("#name1").click(function(){
+          document.getElementById("introduction1").innerHTML="德川家康<br>戰國時代末期傑出的政治家和軍事家，被後世尊崇者稱為＂神君＂厭惡者罵為＂貍貓＂的戰國英雄。他原名松平元信，是三合岡崎領主松平廣中之子，臣於今川義元。桶狹間之戰後，家康恢復故土三河，與織田信長結盟。〝江戶幕府〞的第一代將軍。" ;
+        });
+        document.getElementById("name2").innerHTML="<img src=\"稻姬.gif\">" + "稻姬" ;
+        $("#name2").click(function(){
           document.getElementById("introduction2").innerHTML="稻姬<br>本多忠勝之女，後成為德川家康的養女而嫁給真田幸村之兄，真田信之。遵從家康之意，全心擔任德川，真田兩家的溝通橋樑。關原之戰的前夜，真田家分裂成東西兩軍。真田昌幸、幸村父子在支持德川方的信之不在城中時，來訪欲進入沼田城，但稻姬以不開城門為回應，並親自立於陣頭，射箭以表拒絕。戰後，雖然有昌幸、幸村的事件，但忠勝仍然敢於向家康的直言，也是受到女兒的影響。" ;
         }); 
         document.getElementById("name3").innerHTML="<img src=\"石川.gif\">" + "石川樹正" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>德川家臣<br>與酒井忠次被稱為「德川兩之重臣」、「德川天下之元老功臣」。數正曾經隨德川家康往駿府為今川義元的人質，之後，因具有非常卓越的智謀而在德川家大活躍。" ;     
+        }); 
         document.getElementById("name4").innerHTML="<img src=\"竹中.gif\">" + "竹中重治" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="竹中重治<br>齋藤家臣<br>羽柴秀吉欣賞他卓越的智謀，於是拔擢為軍師，是羽柴秀吉的大軍師，曾以十六人取得稻葉山城，在岳父安藤守就的支援下取得成功，此舉威震天下，但後來隨秀吉攻打中國時，於陣中病歿。" ;
+        });
         document.getElementById("name5").innerHTML="<img src=\"酒井.gif\">" + "酒井忠次" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="酒井忠次<br>德川家臣<br>德川四天王之首，戰國中後期名將，與石川數正被時人稱為「德川兩之重臣」、「德川天下之元老功臣」。家康曾說：「若無小平次，我不可能在駿府渡過！」，更來更讚揚忠次為「三河武士之鏡」。" ;
+        });
         document.getElementById("name6").innerHTML="<img src=\"井伊.gif\">" + "井伊直政" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="井伊直政<br>德川家臣<br>四天王之一，戰國中後期之名將，世稱「赤夜叉」、「赤鬼井伊」為家康的貼身侍衛，直政的初戰當時直政年僅十六歲，在芝原合戰中，直政迅即立功，得到家康的讚賞。" ;
+        });
         document.getElementById("name7").innerHTML="<img src=\"本多.gif\">" + "本多忠勝" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="本多忠勝<br>德川家臣<br>德川四天王之一，是個出色的武士。世稱〝戰國第一猛將〞，據說他在57次的合戰中，也未曾受到一點損傷。他的事蹟除了金崎撤退，也曾經在家康被信玄引誘而出的三方原擔任殿軍，以及本能寺之變後家康穿越伊賀時，一直在主軍家康身邊盡守忠義。在小牧長 久手合戰中，他僅以忠勝軍和秀吉本軍激戰，充分發揮出他的武勇。信玄與秀吉等等的敵將，都給予「華實兼備的猛將」、「古今獨步的勇士」、「效忠家康太可惜了」的高度評價。" ;
+        });
         document.getElementById("name8").innerHTML="<img src=\"神原.gif\">" + "神原康正" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="神元康正<br>德川家臣<br>德川四天王之一，人稱「剛毅大將」與本多忠勝同年生，被人合稱為「德川雙壁之猛將」。" ;
+        });
         document.getElementById("name9").innerHTML="<img src=\"蜂須.gif\">" + "蜂須賀政勝" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="蜂須賀政勝<br>" ;
+        });
         document.getElementById("name10").innerHTML="<img src=\"平手.gif\">" + "平手政秀" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="平手政秀<br>" ;
+        });
         document.getElementById("name11").innerHTML="<img src=\"齋藤.gif\">" + "齋藤道三" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="齋藤道三<br>" ;
+        });
         document.getElementById("name12").innerHTML="<img src=\"大谷.gif\">" + "大谷吉繼" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="大谷吉繼<br>" ;
+        });
         document.getElementById("name13").innerHTML="<img src=\"服部.gif\">" + "服部半藏" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="服部半藏<br>" ;
+        });
         document.getElementById("name14").innerHTML="<img src=\"利家.gif\">" + "前田利家" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="前田利家<br>" ;
+        });
         document.getElementById("name15").innerHTML="<img src=\"寧寧.gif\">" + "寧寧" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="寧寧<br>" ;
+        });
         document.getElementById("name16").innerHTML="<img src=\"鳥居.gif\">" + "鳥居元忠" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="鳥居元忠<br>" ;
+        });
         document.getElementById("name17").innerHTML="<img src=\"佐佐成政.gif\">" + "佐佐成政" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="佐佐成政<br>" ;
+        });
         document.getElementById("name18").innerHTML="<img src=\"稻葉.gif\">" + "稻葉一鐵" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="稻葉一鐵<br>" ;
+        });
         document.getElementById("name19").innerHTML="<img src=\"黑田.gif\">" + "黑田孝高" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="黑田孝高<br>" ;
+        });
         document.getElementById("name20").innerHTML="<img src=\"九鬼.gif\">" + "九鬼嘉隆" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="九鬼嘉隆<br>" ;
+        });
         document.getElementById("name21").innerHTML="<img src=\"瑞隆.gif\">" + "瑞隆院日秀" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="瑞隆院日秀<br>" ;
+        });
         document.getElementById("name22").innerHTML="<img src=\"仙石.gif\">" + "仙石秀久" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="仙石秀久<br>" ;
+        });
         document.getElementById("name23").innerHTML="<img src=\"宇喜多.gif\">" + "宇喜多秀家" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="宇喜多秀家<br>" ;
+        });
         document.getElementById("name24").innerHTML="<img src=\"佐久間.gif\">" + "佐久間盛政" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="佐久間盛政<br>" ;
+        });
         document.getElementById("name25").innerHTML="<img src=\"織田信長.gif\">" + "織田信長" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="織田信長<br>" ;
+        });
         document.getElementById("name26").innerHTML="<img src=\"濃姬.gif\">" + "濃姬" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="濃姬<br>" ;
+        });
         document.getElementById("name27").innerHTML="<img src=\"柴田.gif\">" + "柴田勝家" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="柴田勝家<br>" ;
+        });
         document.getElementById("name28").innerHTML="<img src=\"羽柴.gif\">" + "羽柴秀吉" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="羽柴秀吉<br>" ;
+        });
         document.getElementById("name29").innerHTML="<img src=\"石田.gif\">" + "石田三成" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石田三成<br>" ;
+        });
         document.getElementById("name30").innerHTML="<img src=\"丹羽.gif\">" + "丹羽長秀" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="丹羽長秀<br>" ;
+        });
         document.getElementById("name31").innerHTML="<img src=\"森蘭丸.gif\">" + "森蘭丸" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="森蘭丸<br>" ;
+        });
         document.getElementById("name32").innerHTML="<img src=\"瀧川.gif\">" + "瀧川一益" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="瀧川一益<br>" ;
+        });
         document.getElementById("name33").innerHTML="<img src=\"本多正信.gif\">" + "本多正信" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="本多正信<br>" ;
+        });
         document.getElementById("name34").innerHTML="<img src=\"阿松.gif\">" + "阿松" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="阿松<br>" ;
+        });
         document.getElementById("name35").innerHTML="<img src=\"島左近.gif\">" + "島左近" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="島左近<br>" ;
+        });
         document.getElementById("name36").innerHTML="<img src=\"前野.gif\">" + "前野長康" ;
-        
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="前野長康<br>" ;
+        });        
       }); 
       $("#army2").click(function(){       
         
         document.getElementById("name1").innerHTML="<img src=\"雜賀.gif\">" + "雜賀孫市" ;
+        $("#name1").click(function(){
+          document.getElementById("introduction1").innerHTML="雜賀孫市<br>雜賀党的首領歷代都稱孫市，戰國中後期名將，雜賀孫市是擅使鐵炮的高手。紀伊的雜賀眾出身。當信長攻打一揆眾的本據地‧伊勢長島時，雜賀眾力挺一揆眾，組織鐵砲隊痛擊織田軍促使敗退。歷史上孫市的真實身份不詳，一說為鈴木重秀，另一說為重朝。重秀曾在石山合戰，僅僅以100人規模的鐵砲隊重創織田軍，又介於本願寺之間，在山崎之戰大為活躍，後來也參加秀吉的紀州攻略戰；重朝在關原西軍中於成功攻下伏見城，曾投靠政宗，爾後則成為家康、賴房的臣下。" ;
+        });
         document.getElementById("name2").innerHTML="<img src=\"風魔.gif\">" + "風魔小太郎" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name3").innerHTML="<img src=\"朝信.gif\">" + "齋藤朝信" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name4").innerHTML="<img src=\"伊達.gif\">" + "伊達政宗" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name5").innerHTML="<img src=\"毛利.gif\">" + "毛利元就" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name6").innerHTML="<img src=\"真田.gif\">" + "真田幸村" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name7").innerHTML="<img src=\"足利.gif\">" + "足利義昭" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name8").innerHTML="<img src=\"淺井.gif\">" + "淺井長政" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name9").innerHTML="<img src=\"昌幸.gif\">" + "真田昌幸" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name10").innerHTML="<img src=\"三好.gif\">" + "三好長慶" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name11").innerHTML="<img src=\"菊姬.gif\">" + "菊姬" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name12").innerHTML="<img src=\"山本.gif\">" + "山本勘助" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name13").innerHTML="<img src=\"百地.gif\">" + "百地三太夫" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name14").innerHTML="<img src=\"片倉.gif\">" + "片倉景綱" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name15").innerHTML="<img src=\"今川.gif\">" + "今川義元" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name16").innerHTML="<img src=\"望月.gif\">" + "望月千代女" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name17").innerHTML="<img src=\"霧隱.gif\">" + "霧隱才藏" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name18").innerHTML="<img src=\"湖衣姬.gif\">" + "湖衣姬" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name19").innerHTML="<img src=\"宇佐.gif\">" + "宇佐美定滿" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name20").innerHTML="<img src=\"山縣.gif\">" + "山縣昌景" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name21").innerHTML="<img src=\"馬場.gif\">" + "馬場信房" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name22").innerHTML="<img src=\"太原.gif\">" + "太原雪齋" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name23").innerHTML="<img src=\"伊勢姬.gif\">" + "伊勢姬" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name24").innerHTML="<img src=\"秋山.gif\">" + "秋山信友" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name25").innerHTML="<img src=\"本願.gif\">" + "本願寺顯如" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name26").innerHTML="<img src=\"大熊.gif\">" + "大雄朝秀" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name27").innerHTML="<img src=\"小島.gif\">" + "小島貞興" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name28").innerHTML="<img src=\"松永.gif\">" + "松永久秀" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name29").innerHTML="<img src=\"村上.gif\">" + "村上義清" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name30").innerHTML="<img src=\"柿崎.gif\">" + "柿崎景家" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name31").innerHTML="<img src=\"武田.gif\">" + "武田信玄" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name32").innerHTML="<img src=\"上衫.gif\">" + "上衫謙信" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name33").innerHTML="<img src=\"最上.gif\">" + "最上義姬" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name34").innerHTML="<img src=\"勝賴.gif\">" + "武田勝賴" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name35").innerHTML="<img src=\"北條.gif\">" + "北條早雲" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name36").innerHTML="<img src=\"直江.gif\">" + "直江兼續" ;
-        
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
       });
       $("#army3").click(function(){       
         
         document.getElementById("name1").innerHTML="<img src=\"光秀.gif\">" + "明智光秀" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name2").innerHTML="<img src=\"秀滿.gif\">" + "明智秀滿" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name3").innerHTML="<img src=\"島津.gif\">" + "島津義弘" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name4").innerHTML="<img src=\"阿國.gif\">" + "阿國" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name5").innerHTML="<img src=\"慶次.gif\">" + "前田慶次" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name6").innerHTML="<img src=\"石川五右衛門.gif\">" + "石川五右衛門" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name7").innerHTML="<img src=\"道雪.gif\">" + "立花道雪" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name8").innerHTML="<img src=\"加藤.gif\">" + "加藤段藏" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name9").innerHTML="<img src=\"立花.gif\">" + "立花閣千代" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name10").innerHTML="<img src=\"香宗.gif\">" + "香宗我部親泰" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name11").innerHTML="<img src=\"宗茂.gif\">" + "立花宗茂" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name12").innerHTML="<img src=\"大友.gif\">" + "大友宗麟" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name13").innerHTML="<img src=\"龍造.gif\">" + "龍造寺隆信" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name14").innerHTML="<img src=\"義龍.gif\">" + "齋藤義龍" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name15").innerHTML="<img src=\"玉子.gif\">" + "玉子" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name16").innerHTML="<img src=\"果心.gif\">" + "果心居士" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name17").innerHTML="<img src=\"阿市.gif\">" + "阿市" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name18").innerHTML="<img src=\"小早川.gif\">" + "小早川隆景" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name19").innerHTML="<img src=\"松姬.gif\">" + "松姬" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name20").innerHTML="<img src=\"長宗.gif\">" + "長宗" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name21").innerHTML="<img src=\"宮本.gif\">" + "宮本" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name22").innerHTML="<img src=\"佐佐木.gif\">" + "佐佐木小次郎" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name23").innerHTML="<img src=\"清正.gif\">" + "加藤清正" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name24").innerHTML="<img src=\"柳生.gif\">" + "柳生宗嚴" ;
+        $("#name3").click(function(){
+          document.getElementById("introduction3").innerHTML="石川樹正<br>" ;
+        });
         document.getElementById("name25").innerHTML="" ;
         document.getElementById("name26").innerHTML="" ;
         document.getElementById("name27").innerHTML="" ;
@@ -234,7 +529,7 @@
       <td><div id="name36"></div></td>
     </tr>
     </table>
-    <div id="introduction2"></div>
+    <div id="introduction1"></div>
     <div id="introduction2"></div>
     <div id="introduction3"></div>
     <div id="introduction4"></div>
