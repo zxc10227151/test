@@ -13,10 +13,14 @@ p {
 
 .pic {
 height : auto;
-height : 150px;
+height : 200px;
 width : 550px;
 }
 
 .vedio {
   text-align:center;
+}
+
+.123 {
+  margin-left:600px;
 }
