@@ -4,6 +4,9 @@ body {
   background-image:url('背景.jpg');
   background-size: 100%;
 }
+p {
+  color:red;
+}
 .title {
   text-align:center;
 }
@@ -15,9 +18,5 @@ width : 550px;
 }
 
 .vedio {
-  text-align:center;
-}
-footer {
-  margin-bottom:200px;
   text-align:center;
 }
