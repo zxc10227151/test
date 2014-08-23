@@ -6,6 +6,8 @@ body {
 }
 p {
   color:red;
+  font-size:120%;
+  font-weight: 900;
 }
 .title {
   text-align:center;
@@ -21,6 +23,7 @@ width : 550px;
   text-align:center;
 }
 
-.123 {
-  margin-left:600px;
+a {
+  font-size:120%;
+  
 }
