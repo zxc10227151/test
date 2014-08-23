@@ -25,5 +25,43 @@ width : 550px;
 
 a {
   font-size:120%;
-  
+}
+#menu1{
+  color:purple;
+}
+#menu2{
+  color:purple;
+}
+#menu3{
+  color:purple;
+}
+#army1{
+  color:green;
+}
+#army2{
+  color:green;
+}
+#army3{
+  color:green;
+}
+#buy1{
+  color:orange;
+}
+#buy2{
+  color:orange;
+}
+#buy3{
+  color:orange;
+}
+#buy4{
+  color:orange;
+}
+#buy5{
+  color:orange;
+}
+#knife1{
+  color:pink;
+}
+#knife2{
+  color:pink;
 }
